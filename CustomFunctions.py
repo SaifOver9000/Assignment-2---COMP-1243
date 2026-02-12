@@ -52,7 +52,7 @@ def MostExpensivePerGram(costs, names, weights):
   for i in range(len(names)):
     pPH.append((weights[i]/costs[i])*100)
   mostExpensivePerGram = names[pPH.index(max(pPH))]
-  return(f"The most expensive bag per gram is {mostExpensivePerGram}
+  return(f"The most expensive bag per gram is {mostExpensivePerGram}")
 
 #2nd Change
 #contains our custom functions
